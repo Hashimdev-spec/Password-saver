@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# A Password saver app that saves all of your social and non social accounts secure please give it a star🌟
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created Using Reactjs, and a Toast from React Hot Toast.
 
 ## Available Scripts
 
