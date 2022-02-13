@@ -1,13 +1,218 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: white;
+    box-sizing: border-box;
+     margin: 0;   
+     transition: all .5s ease-in-out;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:tomato;
+}
+.dark-modeicon{
+    color: tomato;
+    
+}
+.darkmodebtn{
+    background-color: white;
+    box-shadow: 2px 3px 4px 9px white;
+}
+.lightmodebtn{
+    background-color: rgb(243, 206, 41);
+    border: none;
+    /* box-shadow: 6px 2px 9px 3px rgb(241, 208, 17); */
+}
+
+/* now     */
+
+
+
+.Hero-div{
+    max-width: 90%;
+    min-width:40%;
+    height: 200px;
+    background-color: tomato;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.cards{
+    margin: 0 auto;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    color:white;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+   
+  
+}
+
+.NOTELIST{
+	
+}
+.noteshead{
+    width:30%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    background-color: tomato;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.Hero{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+.pdiv{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.password-hide-btn{
+    background-color: tomato;
+	margin-left: 10px;
+    color: white;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px; 
+}
+
+.herop{
+      width: 70%;
+      height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 12, 51);
+    border-bottom-right-radius: 20px;
+    border-right: 4px solid tomato;
+    box-shadow: 1px 1px 9px 1px tomato;
+}
+
+
+
+
+#btnsubmit{
+    width: 150px;
+    background-color: rgb(4, 12, 51);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+textarea{
+    width: 300px;
+    border-bottom: 3px solid black;
+    background: transparent;
+    border-bottom: 3px solid tomato;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    outline: none;
+    color: tomato;
+   
+	padding: 5px 10px 5px 10px; 
+}
+
+.dark-mode {
+	background-color: rgb(3, 2, 34);
+    height: 100%;
+}
+
+.dark-mode h1 {
+	color: white;
+}
+button{
+    background-color: tomato;
+	border: none;
+    color: rgb(4, 12, 51);
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px; 
+    box-shadow: 1px 1px 1px 1px tomato;
+
+}
+#formadd{
+    font-family: sans-serif;
+    position:absolute;
+    top:16%;
+    left: 5%;
+    height: 60%;
+    width: 90%;
+    background-color: whitesmoke;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0 1000px  1000px;
+    
+}
+
+#formadd h1{
+  
+}
+
+.inputst{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    text-align: center;
+   font-family: sans-serif;
+   font-weight: bold;
+    /* margin-top: 50px; */
+    /* padding: 10px; */
+    
+}
+input{
+    /* width:200px;
+    height: 30px; */
+    margin-bottom: 20px;
+    background: transparent;
+	outline: none;
+    border-bottom: 3px solid tomato;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+	padding: 5px 10px 5px 10px; 
+
+}
+
+.formhead{
+    text-align: center;
+    color: black;
+  
+    width: 100%;
+    border-radius: 10px;
+    font-family: cursive;
+
+
+}
+#btncancel{
+  position: absolute;
+  top:3%;
+  left: 88%;
 }
